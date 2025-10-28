@@ -139,7 +139,8 @@ kubectl get secret kube-prometheus-stack-grafana -n monitoring -o jsonpath="{.da
 
 **Pre-Configured Data Source:**
 Grafana automatically detects Prometheus as a data source.
-![grafana-datasource](output_images/image-11.png)
+<img width="1902" height="867" alt="image" src="https://github.com/user-attachments/assets/64744750-426d-411e-aa3d-3b4ea914bdf7" />
+
 
 ---
 
@@ -150,6 +151,9 @@ Grafana lets you import ready-made dashboards to visualize Kubernetes and node m
 ### Steps:
 
 1. Go to → [https://grafana.com/grafana/dashboards/?search=kubernetes](https://grafana.com/grafana/dashboards/?search=kubernetes)
+
+<img width="1432" height="792" alt="image" src="https://github.com/user-attachments/assets/b902bdaa-1ebb-4ae8-9311-06745b38b933" />
+
 2. Find a dashboard (e.g., **Kubernetes Cluster Monitoring**, **Node Exporter Full**, etc.)
 3. Copy its dashboard ID
 4. In Grafana:
